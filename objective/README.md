@@ -1,16 +1,16 @@
 
 ## Objective
 
-- The main objective of this checkpoint is to make you familiar with  REST API calls, Routing, Authentication and dealing with forms & tables.
-- In this checkpoint you will be expected to implement the above mentioned tasks only.
-- For API Calls you can either use javascript inbuilt fetch method or you can use any external library
-- For routing you should use REACT-ROUTER-DOM.
-- Rest depends on you how you implement.
+- This checkpoint's major goal is to familiarise you with REST API requests, routing, authentication, and working with forms and tables.
+- You will only be required to complete the aforementioned activities during this checkpoint.
+- To make API calls, you may use either the built-in fetch function of javascript or any other library.
+- REACT-ROUTER-DOM should be used for routing.
+- Rest is up to you in terms of implementation.
 
 
 ## Notes
-- Take an indepth knowledge before you start with your checkpoint, this will give you an brief idea how the application will look.
-- As the styling is already done for you we expect you to focus on the functionalities rather then the styling.
-- All the usefull API's that you will need during the completion of the checkpoint is been provided to you in the api.js file inside config folder.
+- Do your research thoroughly before beginning your work; this will offer you a general notion of how the application will seem.
+- We anticipate that you will pay more attention to the functionality than the style as it has already been done for you.
+- The api.js file located in the config folder contains all the helpful APIs that you will require to complete the checkpoint.
 
 
