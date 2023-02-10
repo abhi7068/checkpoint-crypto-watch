@@ -1,16 +1,14 @@
 
-## Objective
+## Routing
 
-- The main objective of this checkpoint is to make you familiar with  REST API calls, Routing, Authentication and dealing with forms & tables.
-- In this checkpoint you will be expected to implement the above mentioned tasks only.
-- For API Calls you can either use javascript inbuilt fetch method or you can use any external library
-- For routing you should use REACT-ROUTER-DOM.
-- Rest depends on you how you implement.
+- Routing is the process of redirecting a user to different pages based on their action or request. We will be using React Router in our application to navigate a user to a different page.
+- Four pages make up our application. Even if he keeps attempting by manipulating the url, an unknown user will only be given access to the login and register pages and will not be able to reach the home page or the coin page. Our application's core pages, which house the bulk of its material, will be considered our private Routes, making them inaccessible to anybody who hasn't authenticated.
+- Put the login and register pages inside public routes and the main page and the coin pages inside private routes.
 
 
 ## Notes
-- Take an indepth knowledge before you start with your checkpoint, this will give you an brief idea how the application will look.
-- As the styling is already done for you we expect you to focus on the functionalities rather then the styling.
-- All the usefull API's that you will need during the completion of the checkpoint is been provided to you in the api.js file inside config folder.
+- The efficient usage of localStorage is essential to Perfect Routing.
+- Make sure the user cannot access the primary routes even if they alter the URL.
+- There are files for both public and private routes on the component folder.
 
 

@@ -9,7 +9,9 @@
 
 - We'll move on to user registration after starting with user login. In other words, as soon as the user's browser loads our page, it determines if they are authorised and prompts them to log in with their credentials. If the user is not already registered, he will be required to register before being requested to log in a second time. Following a successful login, the user may browse the remaining pages of our software.
 
-- Let's talk about what will be our duty on the login page now. When a new user arrives on our website, our first responsibility is to show him our login page. If the user successfully enters his credentials, he will be sent to our home page, otherwise, if the user is not yet registered, he must register by selecting the register option located beneath the form.
+- When a new user arrives on our website, our first responsibility is to show him our login page. If the user successfully enters his credentials, he will be sent to our home page, otherwise, if the user is not yet registered, he must register by selecting the register option located beneath the form.
+
+- The user will be asked to provide his name, email address, and password on the registration page. The user will be sent to the login page as soon as they click the registration button, saving their credentials as JSON data in local storage. The user credentials have now been saved to local storage. We will compare the login information with the registered credentials recorded in the local storage throughout the login process. If there are matches, we provide the user access to the main page.
 
 
 
