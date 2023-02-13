@@ -17,5 +17,5 @@ name: Authentication
 
 <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676265467/Screenshot_20230213_104536_qwsroh.png" height="300px" width="700px" />
 
-- If the user enters correct credentials the the user should get the access of main page of our site.
+- If the user enters correct credentials then the user should get the access of main page of our site.
 
