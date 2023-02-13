@@ -3,7 +3,7 @@ name: API Calls
 ---
 
 ### Objective:
-- API stands for application programming interface, which is a set of definitions and protocols for building and integrating application software, Like YouTube API allows developers to integrate YouTube videos and functionality into websites or applications. Twitter offers Twitter APIs for embedding tweets.
+- API stands for application programming interface, which is a set of definitions and protocols for building and integrating application software. Like YouTube API allows developers to integrate YouTube videos, similarly Twitter offers Twitter APIs for embedding tweets.
 
 - In our checkpoint we will be using [coingecko.com](https://coingecko.com) APIs for fetching coin data.
 - In the Home Page we will be having a Coin table that will contain all the coins and their data respective. Our responsibility will be to fetch the data from the CoinTable API in the api.js file in the config folder.
