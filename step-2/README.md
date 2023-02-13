@@ -19,3 +19,6 @@ name: Authentication
 
 - If the user enters correct credentials then the user should get the access of main page of our site.
 
+##Notes
+- User should not access the main page without a valid authentication.
+- Make sure to store user's credentials in the form of json iin the local strorage. localStorage.setItem('credentials', JSON.stringify(credentials)) for registring credentials and JSON.parse(localStorage.getItem('credentials')) for getting Credentials
