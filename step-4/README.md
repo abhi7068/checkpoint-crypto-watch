@@ -1,37 +1,24 @@
-# checkpoint-crypto-watch
-
 ---
-name: Crypto Watch
+name: API Calls Part 2
 ---
 
-## Crypto Watch
-### Milestone Objective:
-Building the crypto Watch will require concepts below concepts:-
-- REST API calls
-- Routing
-- Authentication
-- Tables and forms
+### Objective:
+- Till now we are familiar with the API calls in this half we will complete our checkpoint finally.
+- First we will be working on the Chart of the Coin Page where the status of the coin will be displayed, we will be fetching data for the chart using the chart API.
+- Use the API, fetch the data and assign the data to the historicalData state.
 
+<img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676289888/Screenshot_20230213_173213_ku24ql.png" height="300px" width="700px" />
 
+- Use CoinTable API in the api.js file in the config folder to the fetch the data and get the response, finally the response should then be assigned to the state.
 
+<img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676276553/Screenshot_20230213_134949_ynvtol.png" height="300px" />
+ 
+- Now finally we are done with our Coin Table, but what if the user wants to know more about a particular coin, so for that we will fetch data for that Single Coin as well, but before that we will make sure that when a user clicks on a coin the Id of the coin is passed properly in to the url. In our case the ID is the name of the coin itself.
 
-We are going to incrementally build the project by completing it stepwise!
+  ``https://cryptoowatch.vercel.app/coins/bitcoin``
+  
+- In the coin page we have to fetch data for the single coin using the id from the URL and display the data on the page.
 
-This checkpoint comprises of four steps to build a Crypto watch app.
+## Note
 
-Reference template code to get started is [here](https://github.com/abhi7068/checkpoint-crypto-watch-template)
-
-Here is the overview about the four steps:
-1. Performing Routing in the app.js file.
-2. Authentication in the Login/register page
-3. Rest API calls in the required pages
-4. Displaying Data on the site
-
-## Notes
-
-- We anticipate that you will pay more attention to the functionality than the style as it has already been done for you.
-- The api.js file located in the config folder contains all the helpful APIs that you will require to complete the checkpoint.
-
-### Final output
-[Reference Crypto-Watch Site](https://cryptoowatch.vercel.app)  
-[<img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676261601/Screenshot_20230213_094010_ik3zjt.png" height="300px" width="600px"/>](https://cryptoowatch.vercel.app)
+- Make sure to visit the api.js file as all the required API endpoints are in this file
