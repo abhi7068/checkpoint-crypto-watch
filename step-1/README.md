@@ -20,6 +20,6 @@ name: Routing
 <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676261601/Screenshot_20230213_094010_ik3zjt.png" height="300px" width="600px" />
 
 ### Note:
-- We should be editing the App Component throughout the checkpoint. So, make sure you are following the instructions properly.
+- Make sure you are following the instructions properly.
 - The efficient usage of localStorage is essential to Perfect Routing.
 - Make sure the user cannot access the primary routes even if they alter the URL.
