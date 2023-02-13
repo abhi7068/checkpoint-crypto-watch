@@ -1,7 +1,7 @@
 # checkpoint-crypto-watch
 
 ---
-name:  Crypto watch
+name: Crypto Watch
 ---
 
 ## Crypto Watch
