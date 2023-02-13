@@ -11,7 +11,7 @@ name: API Calls
 
 - Use CoinTable API in the api.js file in the config folder and push the response inside the coins state.
 
-<img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676276553/Screenshot_20230213_134949_ynvtol.png" height="300px" width="700px" />
+<img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676276553/Screenshot_20230213_134949_ynvtol.png" height="300px" />
  
 - After we hit the endpoint of the API we are going to get a set of data in response.
 - And 
