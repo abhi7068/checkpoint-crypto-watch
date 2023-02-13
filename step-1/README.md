@@ -14,11 +14,15 @@ name: Routing
 <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676263348/Screenshot_20230213_101010_qfzqfd.png" height="300px" width="600px"/>
  
 -Finally the User will be redirected to the main page of our site after successful login.
+
+ <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676261601/Screenshot_20230213_094010_ik3zjt.png" height="300px" width="600px" />
+
 - On the main page if a user clicks on any coin he should get redirected to the page along with the ID of the coin on the URL
 
 ``<PrivateRoute path='/coins/:id' component={CoinPage} />``
+ 
+  <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676290923/Screenshot_20230213_174953_vbivpo.png" height="300px" width="600px"/>
 
-<img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676261601/Screenshot_20230213_094010_ik3zjt.png" height="300px" width="600px" />
 
 ### Note:
 - Make sure you are following the instructions properly.
