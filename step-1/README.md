@@ -13,10 +13,11 @@ name: Routing
 
 -After successful registration the user will be routed to the login page, and will be asked to enter the same credentials with which he registered.
 
+<img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676264128/Screenshot_20230213_102312_odsnlh.png" height="300px" width="600px" />
+ 
 -Finally the User will be redirected to the main page of our site after successful login.
 
-
-
+<img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676261601/Screenshot_20230213_094010_ik3zjt.png" height="300px" width="600px" />
 
 ### Note:
 - We should be editing the App Component throughout the checkpoint. So, make sure you are following the instructions properly.
