@@ -9,12 +9,12 @@ name: API Calls
 
 <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676271839/Screenshot_20230213_121835_g789ts.png" height="300px" width="700px" />
 
-- Now Use CoinTable API in the api.js file in the config folder, use the fetch method to hit the API endpoint and get the response, response then should be assigned to the state.
+- Now Use CoinTable API in the api.js file in the config folder to the fetch the data and get the response, finally the response should then be assigned to the state.
 
 <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676276553/Screenshot_20230213_134949_ynvtol.png" height="300px" />
  
-- After we hit the endpoint of the API we are going to get a set of data in response.
-- And 
+- 
+- 
 - To fetch the image of the movie, you need to use the `backdrop_path` which is returned by the above API and make a call to the following URL:
     - ``https://image.tmdb.org/t/p/original/${backdrop_path}``
 - The Banner component should be imported inside the `App` component and should be rendered inside the `App` component after `Navbar` component.
