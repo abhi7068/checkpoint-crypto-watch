@@ -15,7 +15,8 @@ name: Routing
  
 -Finally the User will be redirected to the main page of our site after successful login.
 - On the main page if a user clicks on any coin he should get redirected to the page along with the ID of the coin on the URL
-``<Route path='/coins/:id' component={CoinPage} />``
+
+``<PrivateRoute path='/coins/:id' component={CoinPage} />``
 
 <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676261601/Screenshot_20230213_094010_ik3zjt.png" height="300px" width="600px" />
 
