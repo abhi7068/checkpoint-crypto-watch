@@ -21,5 +21,5 @@ name: Authentication
 
 ##Notes
 - User should not access the main page without a valid authentication.
-- Make sure to store user's credentials in the form of json in the local strorage. localStorage.setItem('credentials', JSON.stringify(credentials)) for registring credentials and JSON.parse(localStorage.getItem('credentials')) for getting Credentials from localStorage
--Once the user is registered, in any way he should not reach to the login/register page and same if the user is not registered or logged in he should not reach to the main page of our site.
+- Make sure to store user's credentials in the form of json in the local strorage. localStorage.setItem('credentials', JSON.stringify(credentials)) for registring credentials and JSON.parse(localStorage.getItem('credentials')) for getting Credentials from localStorage.
+- Once the user is registered, in any way he should not reach to the login/register page and same if the user is not registered or logged in he should not reach to the main page of our site.
