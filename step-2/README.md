@@ -9,9 +9,13 @@ name: Authentication
 
 <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676264128/Screenshot_20230213_102312_odsnlh.png" height="300px" width="700px" />
 
-- Now when the user clicks on the register button, save the credentials to the localStroage of the User's Browser and navigate him to the login page.
+- Now when the user clicks on the register button, save the entered credentials to the localStroage of the User's Browser and navigate him to the login page.
  
  <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676263348/Screenshot_20230213_101010_qfzqfd.png" height="300px" width="700px" />
 
-- The user will be asked to provide his name, email address, and password on the registration page. The user will be sent to the login page as soon as they click the registration button, saving their credentials as JSON data in local storage. The user credentials have now been saved to local storage. We will compare the login information with the registered credentials recorded in the local storage throughout the login process. If there are matches, we provide the user access to the main page.
+- Here when the user clicks on the Login button and some how the user credential is wrong ALERT the user user with a message saying "Credentials are not valid"
+
+<img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676265467/Screenshot_20230213_104536_qwsroh.png" height="300px" width="700px" />
+
+- If the user enters correct credentials the the user should get the access of main page of our site.
 
