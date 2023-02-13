@@ -1,30 +1,30 @@
 # checkpoint-crypto-watch
 
 ---
-name:  Netflix Clone
+name:  Crypto watch
 ---
 
-## Netflix Clone
+## Crypto Watch
 ### Milestone Objective:
-Build a Netflix clone using React core concepts like
-- Components
-- Props
-- State
-- Hooks
+Building the crypto Watch will require concepts below concepts:-
+- REST API calls
+- Routing
+- Authentication
+- Tables and forms
 
-You might have used Netflix to watch movies and TV shows. Now it's time to build a clone of Netflix using React. You will be using React core concepts like components, props, state, and hooks to build this project.
+
 
 We are going to incrementally build the project by completing it stepwise!
 
-This checkpoint comprises of four steps to build a Netflix clone.
+This checkpoint comprises of four steps to build a Crypto watch app.
 
-Reference template code to get started is [here](https://github.com/hash-learn/checkpoint-netflix-clone-template)
+Reference template code to get started is [here](https://github.com/abhi7068/checkpoint-crypto-watch-template)
 
 Here is the overview about the four steps:
-1. Build the App component
-2. Build the Navbar component
-3. Build the Banner component
-4. Build the Row component
+1. Performing Routing in the app.js file.
+2. Authentication in the Login/register page
+3. Rest API calls in the required pages
+4. Displaying Data on the site
 
 
 ### Final output
