@@ -4,6 +4,8 @@ name: Routing
 
 ### Objective:
 - Routing is the process of redirecting a user to different page based on their action or request. We will be using React Router in our application to navigate a user to a different page.
+- [Reference Netflix-clone Site](https://cryptoowatch.vercel.app) 
+[<img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676263348/Screenshot_20230213_101010_qfzqfd.png" height="300px" width="600px"/>]
 
 - Four pages make up our application. If a user visites our application, the user will be prompted with the login page and if the user is not register then he will be asked to register first.
 
