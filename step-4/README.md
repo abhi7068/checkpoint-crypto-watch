@@ -16,11 +16,9 @@ name: API Calls Part 2
 
 <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676290217/Screenshot_20230213_173806_ioeiuf.png" height="300px" />
  
-- Now finally we are done with our Coin Table, but what if the user wants to know more about a particular coin, so for that we will fetch data for that Single Coin as well, but before that we will make sure that when a user clicks on a coin the Id of the coin is passed properly in to the url. In our case the ID is the name of the coin itself.
+- Move to the Carosel file and fetch the data from the trending API endpoint, and finally assign the response to the trending state.
 
-  ``https://cryptoowatch.vercel.app/coins/bitcoin``
-  
-- In the coin page we have to fetch data for the single coin using the id from the URL and display the data on the page.
+  ``https://api.coingecko.com/api/v3/coins/markets?vs_currency=${currency}&order=gecko_desc&per_page=10&page=1&sparkline=false&price_change_percentage=24h``
 
 ## Note
 
