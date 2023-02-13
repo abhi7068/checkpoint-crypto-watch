@@ -1,16 +1,20 @@
+---
+name: Authentication
+---
 
-## Step-2 Routing
+### Objective:
+- Authentication's main objective is to positively identify each user of our application, to identify each user and protect our programme from unidentifiable users, we will integrate authentication using the localStorage.
 
-- Routing is the process of redirecting a user to different pages based on their action or request. We will be using React Router in our application to navigate a user to a different page.
+- Starting with registration, a form is already built for you, your task is to give fuctionality to it. Create a state and store the user data into it in the form of json.
 
-- Four pages make up our application. Even if an unauthorised person repeatedly tries to access the site by changing the url, he should only be permitted to view the login and registration pages. Without successfully registering, he will not be allowed to access the home page or the currency page. Our application's core pages, which contain the majority of its content, will be regarded as our private Routes, rendering anyone who hasn't authenticated unable to access them.
+<img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676264128/Screenshot_20230213_102312_odsnlh.png" height="300px" width="700px" />
 
-- Put the login and register pages inside public routes and the main page and the coin pages inside private routes.
+-Now when the user clicks on the register button, save the credentials to the localStroage of the User's Browser and navigate him to the login page.
+ 
+ <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676263348/Screenshot_20230213_101010_qfzqfd.png" height="300px" width="700px" />
 
+- The user will be asked to provide his name, email address, and password on the registration page. The user will be sent to the login page as soon as they click the registration button, saving their credentials as JSON data in local storage. The user credentials have now been saved to local storage. We will compare the login information with the registered credentials recorded in the local storage throughout the login process. If there are matches, we provide the user access to the main page.
 
-## Notes
-- The efficient usage of localStorage is essential to Perfect Routing.
-- Make sure the user cannot access the primary routes even if they alter the URL.
-- There are files for both public and private routes on the component folder.
+### Expected output:
 
-
+<img src="https://ik.imagekit.io/hashinsert/hash-learn/Screenshot_20230128_052600.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674906980895" height="300px" width="600px" />
