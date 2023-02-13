@@ -8,7 +8,9 @@ name: Routing
 
 
 - Four pages make up our application. If a user visites our application, the user will be prompted with the login page and if the user is not register then he will be asked to register first.
-[<img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676263348/Screenshot_20230213_101010_qfzqfd.png" height="300px" width="600px"/>]
+- 
+- <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676263348/Screenshot_20230213_101010_qfzqfd.png" height="300px" width="600px"/>
+- 
 -After successful registration the user will be routed to the login page, and will be asked to enter the same credentials with which he registered.
 
 -Finally the User will be redirected to the main page of our site after successful login.
