@@ -5,11 +5,13 @@ name: API Calls
 ### Objective:
 - Application programming interface, or API for short, is a collection of definitions and protocols for creating and integrating application software. Like Twitter offers Twitter APIs for embedding tweets on our site, YouTube API enables developers to incorporate YouTube videos.
 - To retrieve coin data for our checkpoint, we will use the [coingecko.com](https://coingecko.com) APIs.
-- In the Home Page we will be having a Coin table that will contain all the coins and their data respective. Our responsibility will be to fetch the data from the CoinTable API in the api.js file in the config folder and push them inside the coins state.
+- In the Home Page we will be having a Coin table that will contain all the coins and their data respective.
 
 <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676271839/Screenshot_20230213_121835_g789ts.png" height="300px" width="700px" />
 
-<img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676271839/Screenshot_20230213_121835_g789ts.png" height="300px" width="700px" />
+- Use CoinTable API in the api.js file in the config folder and push the response inside the coins state.
+
+<img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676276553/Screenshot_20230213_134949_ynvtol.png" height="300px" width="700px" />
  
 - After we hit the endpoint of the API we are going to get a set of data in response.
 - And 
