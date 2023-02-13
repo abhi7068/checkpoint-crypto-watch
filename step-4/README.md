@@ -3,8 +3,11 @@ name: API Calls Part 2
 ---
 
 ### Objective:
-- Till now we are familiar with the API calls in this half we will complete our checkpoint finally.
+- Till now we are familiar with the API calls. In this half we will complete our checkpoint finally.
 - First we will be working on the Chart of the Coin Page where the status of the coin will be displayed, we will be fetching data for the chart using the chart API.
+
+``https://api.coingecko.com/api/v3/coins/${id}/market_chart?vs_currency=${currency}&days=${days}``
+
 - Use the API, fetch the data and assign the data to the historicalData state.
 
 <img src="https://res.cloudinary.com/dn83xtspp/image/upload/v1676289888/Screenshot_20230213_173213_ku24ql.png" height="300px" width="700px" />
